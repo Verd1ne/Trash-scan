@@ -36,7 +36,7 @@ export default function Navbar() {
             height={28}
           />
         </a>
-        <a href='/' className='mx-auto'>
+        <a href='/scan' className='mx-auto'>
           <img
             src={navbarScan}
             style={{
