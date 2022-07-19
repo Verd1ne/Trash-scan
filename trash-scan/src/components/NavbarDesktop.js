@@ -15,7 +15,7 @@ export default function NavbarDesktop() {
           <div className="level-item mr-5"><Link to="theme" smooth={true} duration={750}>Theme</Link></div>
           <div className="level-item mr-5"><Link to="trailer" smooth={true} duration={750}>Trailer</Link></div>
           <div className="level-item mr-5"><Link to="about" smooth={true} duration={750}>About</Link></div>
-          <div className="level-item mr-5"><Link to="balance" smooth={true} duration={750}>Speakers</Link></div>
+          <div className="level-item mr-5"><Link to="speaker" smooth={true} duration={750}>Speakers</Link></div>
           <div className="level-item mr-5"><Link to="faq" smooth={true} duration={750}>FAQ</Link></div>
           <div className="level-item mr-5"><Link to="schedule" smooth={true} duration={750}>Schedule</Link></div>
           <div className="level-item"><Link to="register" smooth={true} duration={750}>Register</Link></div>
