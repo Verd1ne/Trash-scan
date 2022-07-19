@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import Logo from "../images/logo-black.png";
+import Logo from "../images/desktoplogo.png";
 import { Link as LinkR } from 'react-router-dom'
 
 function NavbarMenu() {

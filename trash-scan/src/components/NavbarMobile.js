@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import {Link,Events} from "react-scroll";
-import Logo from '../images/logo-horizontal.png'
+import Logo from '../images/desktoplogo.png'
 import { Link as LinkR } from 'react-router-dom'
 
 function NavbarMobile() {
