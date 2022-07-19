@@ -4,9 +4,9 @@ import { Element } from "react-scroll";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
 
-export default function SpeakerSection() {
+export default function BalanceSection() {
     return (
-      <Element name="speaker" 
+      <Element name="balance" 
             className="section lg:mx-10"
             data-aos="fade-in"
             data-aos-offset="0"

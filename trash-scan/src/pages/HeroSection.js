@@ -10,7 +10,7 @@ export default function HeroSection() {
             style={{ width: "100%" }}
           >
             <div 
-              className="column is-8 is-10-mobile"
+              className="column is-4 is-6-mobile"
               data-aos="fade-in"
               data-aos-offset="0"
               data-aos-delay="0"
@@ -18,7 +18,17 @@ export default function HeroSection() {
               data-aos-mirror="true"
               data-aos-once="true"
               data-aos-anchor-placement="top-center">
-              <img src={Logo} class="image one-logo" alt="logo" />
+              <img src={Logo} class="image trash-logo" alt="logo" />
+            </div>
+            <div className='section'>
+                <div className='container'>
+                    <h1>WELCOME TO TRASH-SCAN</h1>
+                    <div className='columns'>
+                        <div className='column'>
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
           </div>
         </div>
