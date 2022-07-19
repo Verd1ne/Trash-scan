@@ -1,8 +1,9 @@
 import React, { useEffect,useState } from "react";
 import HeroSection from './pages/HeroSection';
 import BalanceSection from './pages/BalanceSection'
-import Card from "../src/components/Card";
-import Card2 from "./images/displaycard1.png";
+import NavbarDesktop from './components/NavbarDesktop'
+import NavbarMobile from './components/NavbarMobile'
+import NavbarMenu from "./components/NavbarMenu";
 import "./styles/global.scss";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -33,7 +34,10 @@ function App() {
   }
   return (
     <div>
+      <NavbarDesktop />
+      <NavbarMobile />
       <HeroSection/>
+      {hideMenu&&<NavbarMenu/>}
       <BalanceSection/>
     </div>
     );
