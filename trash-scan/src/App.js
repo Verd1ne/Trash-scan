@@ -1,11 +1,14 @@
 import React, { useEffect,useState } from "react";
 import HeroSection from './pages/HeroSection';
 import BalanceSection from './pages/BalanceSection'
-import Card from "../src/components/Card";
-import Card2 from "./images/displaycard1.png";
+// import Card from "../src/components/Card";
+// import Card2 from "./images/displaycard1.png";
 import "./styles/global.scss";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Redeem from './components/Redeem'
+import LoginPage from "./pages/LoginPage";
+import Dailytask from "./components/Dailytask"
 
 AOS.init({
   // Global settings:
@@ -35,6 +38,9 @@ function App() {
     <div>
       <HeroSection/>
       <BalanceSection/>
+      <Redeem />
+      <LoginPage />
+      <Dailytask />
     </div>
     );
 }
