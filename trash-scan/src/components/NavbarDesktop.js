@@ -1,5 +1,5 @@
 import React from "react";
-import DesktopLogo from "../images/desktoplogo.png";
+import Logo2 from "../images/logo.png";
 import {Link} from "react-scroll";
 import { Link as LinkR } from 'react-router-dom'
 export default function NavbarDesktop() {
@@ -8,7 +8,7 @@ export default function NavbarDesktop() {
         <div className="level mt-4 mb-4 is-hidden-touch">
         <div className="level-left">
           <div className="level-item">
-            <LinkR to="/"><img src={DesktopLogo} alt="logo" className="navbar-logo" /></LinkR>
+            <LinkR to="/"><img src={Logo2} alt="logo" className="navbar-logo" /></LinkR>
           </div>
         </div>
         <div className="level-right is-size-5 has-text-weight-semibold">
