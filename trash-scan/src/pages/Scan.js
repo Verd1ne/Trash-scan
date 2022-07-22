@@ -14,7 +14,7 @@ function Scan() {
           </div>
 
           <div>
-            <footer className="bg-black rounded-3xl rounded-b-none h-80">
+            <footer className="bg-black rounded-3xl rounded-b-none h-60">
              <p className="scantext1 text-white text-2xl font-bold">
                 Scan and Receive
              </p>
