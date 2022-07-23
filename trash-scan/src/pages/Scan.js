@@ -4,17 +4,18 @@ import Logo from "../images/trashscan-icon.png";
 
 function Scan() {
     return (
+     
         <Layout>
-            <div className="w-screen justify-center">
+          <div className='ScanDiv mx-auto'>
           <div>
-            <header className="bg-yellow-300 rounded-3xl rounded-t-none pt-4 pl-4">
+            <header className="bg-yellow-300 rounded-3xl rounded-t-none pt-4 pl-4 sm:max-w-sm mx-auto">
                 <img src={Logo} alt='logo' className="object-contain h-16 w-20 flex ml-72 pb-2" ></img>
             </header>
           </div>
           </div>
 
           <div>
-            <footer className="bg-black rounded-3xl rounded-b-none h-60">
+            <footer className="ScanFooter bg-black rounded-3xl rounded-b-none mx-auto">
              <p className="scantext1 text-white text-2xl font-bold">
                 Scan and Receive
              </p>
@@ -24,6 +25,8 @@ function Scan() {
             </footer>
           </div>
         </Layout>
+     
+        
     )
 }
 

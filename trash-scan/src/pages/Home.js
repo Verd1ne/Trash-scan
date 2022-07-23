@@ -16,10 +16,10 @@ function Home() {
         }}
       >
         <title>TrashScan</title>
-        <div className="w-screen justify-center">
+        <div className="HomeDiv w-screen justify-center mx-auto sm:max-w-sm">
           <div>
             <header className="bg-yellow-300 rounded-3xl rounded-t-none pl-4 pt-4">
-                <img src={Logo} alt='logo' className="object-contain h-16 w-20 flex ml-72 pb-2" ></img>
+                <img src={Logo} alt='logo' className="TrashLogo object-contain h-16 w-20 flex pb-2 ml-72" ></img>
             </header>
           </div>
           <div className="h-60">

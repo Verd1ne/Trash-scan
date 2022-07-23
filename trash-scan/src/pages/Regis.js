@@ -4,7 +4,7 @@ import Banner from '../images/ts-banner.png';
 
 function Regis(){
     return(
-        <div>
+        <div className='RegDiv sm:max-w-sm mx-auto'>
                     <img src={Banner} alt="banner" className=''></img>
                       <div className="RegisBar bg-white rounded-3xl rounded-b-none pt-4 border-solid border-gray-300 border-t-4 drop-shadow-[2px_2px_4px_rgba(0,0,0,0.4)]">
                 <h1 className='text-3xl font-bold text-black ml-5'>

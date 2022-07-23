@@ -37,6 +37,13 @@
   }
 }
 
+
+@media (min-width: 300px) {
+ .HomeDiv, .ScanDiv, .ScanFooter, .RegDiv{
+  max-width: 384px;
+ };
+}
+
 .GreyCard{
  width: 305px;
  margin-left: auto;
@@ -50,7 +57,7 @@
 
 .LowerGradient{
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(66, 66, 66, 0.9));
-  height: 500px;
+  height: 700px;
 }
 
 .displaycard1{
@@ -75,7 +82,7 @@ footer{
 }
 
 .RegisBar{
-  height: 624px;
+  height: 800px;
 }
 
 .RegisBox{
@@ -95,4 +102,8 @@ footer{
 
 input{
   border-width: 3px;
+}
+
+.ScanFooter{
+  height: 350px;
 }
