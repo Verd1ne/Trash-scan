@@ -4,9 +4,9 @@ import Icon from '../images/trashscan-icon.png'
 
 export default function LoginPage() {
   return (
-    <div className=''>
-      <img src={Pagebg} alt='background' className='w-full h-[300px]'/>
-      <div className='z-10 bg-white rounded-3xl -translate-y-[30px] pb-12'>
+    <div className='m-8 sm:m-[64px] md:m-[80px] lg:m-[100px]'>
+      <img src={Pagebg} alt='background' className='w-full'/>
+      <div className='z-10 bg-white rounded-3xl -translate-y-[30px] pb-12 font-semibold p-10 lg:px-[48px] xl:px-[60px]'>
         <img src={Icon} alt='icon' className="object-contain h-24 w-24 mx-auto -translate-y-[25px]" />
         <h2 className='text-4xl font-semibold ml-12 text-black -translate-y-[15px]'>Login</h2>
         <div className='font-semibold bg-white rounded-3xl mt-4 mb-2 mx-[40px] p-[35px] drop-shadow-[2px_2px_4px_rgba(0,0,0,0.4)]'>

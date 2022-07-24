@@ -1,4 +1,10 @@
 import React, { useEffect,useState } from "react";
+import ReactDOM from "react-dom/client";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 import HeroSection from './pages/HeroSection';
 import BalanceSection from './pages/BalanceSection'
 // import Card from "../src/components/Card";
@@ -9,6 +15,9 @@ import 'aos/dist/aos.css';
 import Redeem from './components/Redeem'
 import LoginPage from "./pages/LoginPage";
 import Dailytask from "./components/Dailytask"
+import Layout from "./components/Layout"
+import Register from './pages/Regis'
+import Home from "./pages/Home";
 
 AOS.init({
   // Global settings:
@@ -36,12 +45,14 @@ function App() {
   }
   return (
     <div>
-      <HeroSection/>
-      <BalanceSection/>
-      <Redeem />
-      <LoginPage />
-      <Dailytask />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
     </div>
-    );
+  );
 }
 export default App;

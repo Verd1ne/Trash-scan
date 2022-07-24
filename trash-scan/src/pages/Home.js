@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/Layout';
 import Logo from "../images/trashscan-icon.png";
 import Card from "../images/card-template.png";
-import Card2 from "../images/DisplayCard1.png";
+import Card2 from "../images/displaycard1.png";
 
 function Home() {
   return (
@@ -16,10 +16,10 @@ function Home() {
         }}
       >
         <title>TrashScan</title>
-        <div className=" ">
+        <div className="HomeDiv w-screen justify-center mx-auto sm:max-w-sm">
           <div>
-            <header className="bg-yellow-300 rounded-3xl rounded-t-none pt-4">
-                <img src={Logo} alt='logo' className="object-contain h-16 w-16 flex ml-72 pb-2" ></img>
+            <header className="bg-yellow-300 rounded-3xl rounded-t-none pl-4 pt-4">
+                <img src={Logo} alt='logo' className="TrashLogo object-contain h-16 w-20 flex pb-2 ml-72" ></img>
             </header>
           </div>
           <div className="h-60">
@@ -29,7 +29,7 @@ function Home() {
           </div>
           <br />
           <div>
-              <section className="LowerGradient block bg-gray-500 h-96 pt-9">
+              <section className="LowerGradient block bg-black-500 h-96 pt-9">
                 <div> 
                   <img src={Card2} alt='card2' className="displaycard1 rounded-3xl object-center"></img>
                 </div>
